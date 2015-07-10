@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myanmaritc</title>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/datatables/media/css/dataTables.bootstrap.css">
+</head>
+<body>
+	
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><strong>Myanmar IT Consulting</strong></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="service.html">Our Services</a></li>
+						<li><a href="client.html">Our Clients</a></li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="job.html">Job Opportunities</a></li>
+						<li><a href="upload.html">Upload CV</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<div class="container">
+		<!-- Default panel contents -->
+		<div class="panel panel-info panel-heading text-center"><h4><strong>All Job Opportunities</strong></h4></div>
+
+		<!-- Table -->
+		<table class="table table-hover">
+			<thead>
+				<th>Date</th>
+				<th>Position</th>
+				<th>Salary</th>
+				<th>Location</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>30-5-2015</td>
+					<td><a href="#">Junior PHP Developer(Experience 1 Year)</a></td>
+					<td>USD 200 - 300</td>
+					<td>Yangon(Hlaing)</td>
+				</tr>
+				<tr>
+					<td>30-5-2015</td>
+					<td><a href="#">Senior PHP Developer(Experience 1 Year)</a></td>
+					<td>USD 500 - 600</td>
+					<td>Yangon(Hlaing)</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	</div>
+	<div class="container">
+		<hr class="featurette-divider">
+		<footer class="footer">
+			<p>Copyright &copy; 2015 Myanmar IT Counsulting. All rights reserved. Designed by <a href="#">Myanmar IT Consulting</a></p>
+		</footer>
+	</div>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bower_components/datatables/media/js/jquery.dataTables.js"></script>
+	<script>
+		$(function(){
+			$("table").dataTable();
+		});
+	</script>
+</body>
+</html>
