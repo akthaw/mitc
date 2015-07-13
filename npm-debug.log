@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bockbone',
+1 verbose cli   'underscore',
+1 verbose cli   '--allow-root' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'bockbone', null ]
+5 verbose cache add name=undefined spec="bockbone" args=["bockbone",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bockbone',
+6 verbose parsed url   path: 'bockbone',
+6 verbose parsed url   href: 'bockbone' }
+7 verbose cache add [ 'underscore', null ]
+8 verbose cache add name=undefined spec="underscore" args=["underscore",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'underscore',
+9 verbose parsed url   path: 'underscore',
+9 verbose parsed url   href: 'underscore' }
+10 silly lockFile 87135aea-bockbone bockbone
+11 verbose lock bockbone /home/akthaw/.npm/87135aea-bockbone.lock
+12 silly lockFile 64bc6893-underscore underscore
+13 verbose lock underscore /home/akthaw/.npm/64bc6893-underscore.lock
+14 silly lockFile 87135aea-bockbone bockbone
+15 silly lockFile 87135aea-bockbone bockbone
+16 silly lockFile 64bc6893-underscore underscore
+17 silly lockFile 64bc6893-underscore underscore
+18 verbose addNamed [ 'bockbone', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile a8956c20-bockbone bockbone@
+21 verbose lock bockbone@ /home/akthaw/.npm/a8956c20-bockbone.lock
+22 verbose addNamed [ 'underscore', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 7629b758-underscore underscore@
+25 verbose lock underscore@ /home/akthaw/.npm/7629b758-underscore.lock
+26 silly addNameRange { name: 'bockbone', range: '*', hasData: false }
+27 silly addNameRange { name: 'underscore', range: '*', hasData: false }
+28 verbose url raw bockbone
+29 verbose url resolving [ 'https://registry.npmjs.org/', './bockbone' ]
+30 verbose url resolved https://registry.npmjs.org/bockbone
+31 info trying registry request attempt 1 at 12:50:15
+32 http GET https://registry.npmjs.org/bockbone
+33 verbose url raw underscore
+34 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+35 verbose url resolved https://registry.npmjs.org/underscore
+36 info trying registry request attempt 1 at 12:50:15
+37 verbose etag "6JFVPG1XG8WCHKPCNSOX48X9H"
+38 http GET https://registry.npmjs.org/underscore
+39 http 404 https://registry.npmjs.org/bockbone
+40 silly registry.get cb [ 404,
+40 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly registry.get     'content-type': 'application/json',
+40 silly registry.get     'cache-control': 'max-age=0',
+40 silly registry.get     'content-length': '51',
+40 silly registry.get     'accept-ranges': 'bytes',
+40 silly registry.get     date: 'Mon, 13 Jul 2015 06:20:38 GMT',
+40 silly registry.get     via: '1.1 varnish',
+40 silly registry.get     age: '0',
+40 silly registry.get     connection: 'keep-alive',
+40 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+40 silly registry.get     'x-cache': 'MISS',
+40 silly registry.get     'x-cache-hits': '0',
+40 silly registry.get     'x-timer': 'S1436768438.660661,VS0,VE270' } ]
+41 silly lockFile a8956c20-bockbone bockbone@
+42 silly lockFile a8956c20-bockbone bockbone@
+43 error 404 'bockbone' is not in the npm registry.
+43 error 404 You should bug the author to publish it
+43 error 404
+43 error 404 Note that you can also install from a
+43 error 404 tarball, folder, or http url, or git url.
+44 error System Linux 3.13.0-24-generic
+45 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "bockbone" "underscore" "--allow-root"
+46 error cwd /var/www/html/myanmaritc
+47 error node -v v0.10.25
+48 error npm -v 1.3.10
+49 error code E404
+50 verbose exit [ 1, true ]
